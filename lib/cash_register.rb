@@ -29,8 +29,3 @@ def apply_discount
    self.total = self.total - self.last_transaction
  end
 end
-
-
-
-def void_last_transaction
-end
