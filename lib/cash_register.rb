@@ -5,12 +5,12 @@ end
 
 def initialize (discount = 0)
 @total = 0
-@discount = discount 
-@items = [] 
+@discount = discount
+@items = []
 end
 
 
-def add_item (title, price)
+def add_item (title, amount, quantity)
 end
 
 def apply_discount
@@ -19,4 +19,3 @@ end
 
 def void_last_transaction
 end
-
