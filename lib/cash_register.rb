@@ -10,7 +10,7 @@ def initialize (discount = 0)
 end
 
 
-def add_item (title, amount, quantity)
+def add_item (title, amount, quantity = 1)
 end
 
 def apply_discount
